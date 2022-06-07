@@ -1,0 +1,248 @@
+p {
+    line-height: 1.4;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+code {
+    background: #f4f6fc;
+    border-radius: 5px;
+    color: #2d4284;
+    font-family: monospace;
+    padding: 4px 8px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.placeholder {
+    background: #f4f6fc;
+    border-radius: 5px;
+    height: 15vh;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+.placeholder.medium {
+    height: 30vh;
+}
+.placeholder.large {
+    height: 45vh;
+}
+.modal__backdrop {
+    background: rgba(0, 0, 0, .65);
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.modal__container {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 15px;
+    width: 560px;
+}
+.modal__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.modal-btn {
+    background: #13161A;
+    border: 0;
+    border-radius: 5px;
+    color: #707070;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    transition: transform 100ms ease-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 115px;
+    margin-right: 38%;
+}
+
+a {
+    border-radius: 5px;
+    color: #682ede;
+    font-weight: 600;
+    padding: 2px 4px;
+    margin-left: -2px;
+    margin-right: -2px;
+}   
+
+.MuiPaper-root{
+    background-color: #13161A !important;
+}
+
+.receive{
+    background-color: #13161A;
+    width: 700px;
+    height: 600px;
+}
+
+.MuiStep-horizontal, .MuiStep-alternativeLabel{
+    color: #707070;
+}
+
+.MuiStep-horizontal, .MuiStep-alternativeLabel{
+    color: #707070;
+}
+
+.MuiStepIcon-root {
+    color: #13161A !important;
+    border: 1px solid #707070;
+    border-radius: 50%;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #E19A4C !important;
+    border: #E19A4C;
+}
+
+.MuiStepLabel-label.MuiStepLabel-active {
+    color: #E19A4C !important;
+    font-weight: 500;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #E19A4C !important;
+    border: none;
+}
+
+.MuiStepLabel-label {
+    color: #707070 !important;
+}
+
+.MuiTypography-caption{
+    display: none !important;
+}
+
+.receive_title{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.instructions-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    color: #A4A9D6;
+    margin-bottom: 15px;
+}
+
+.verification-container, .receive-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:70%;
+    color: #A4A9D6;
+    margin-bottom: 15px;
+}
+
+.verification-container .instructions{
+    padding: 30px 10px;
+
+}
+
+.v-code{
+    width: 100%;
+}
+
+.instructions-container button, .verification-container button{
+    border: none;
+}
+
+.instructions-container span{
+    margin: 50px 10px 20px 20px;
+    font-size: 12px;
+    color: #B1B1B1;
+}
+
+.instructions, .code{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #2d2d2d;
+    color: #A4A9D6;
+}
+
+.right-arrow{
+    color: #CAA276 !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.verification-code{
+    text-align: center;
+    color: #E19A4C !important;
+    font-size: 20px !important;
+    font-weight: 700;
+}
+
+.verification-container .title{
+    font-size: 12px;
+    color: #B1B1B1;
+    margin: 40px 0px 20px 20px;
+
+}
+
+.copy-btn{
+    border: none;
+    padding: 10px 15px;
+    margin: auto 10px;
+    color: #E7C49F;
+    background-color: #565656;
+    border-radius: 8px;
+}
+
+.receive-container button{
+    border: none;
+}
+
+.receive-code{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.address-verified{
+    color: #4848F6;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.address-verified span{
+    margin-left: 10px;
+}
+
+.re-verify{
+    padding: 50px;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.re-verify button{
+    background-color: #13161A;
+    color: #4848F6;
+    outline: 1px solid #4848F6;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
