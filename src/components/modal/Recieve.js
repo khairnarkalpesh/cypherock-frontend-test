@@ -136,21 +136,7 @@ import {
 			</div>
 		  )}
 		/>
-		<Controller
-		  control={control}
-		  name="address2"
-		  render={({ field }) => (
-			<TextField
-			  id="address2"
-			  label="Address 2"
-			  variant="outlined"
-			  placeholder="Enter Your Address 2"
-			  fullWidth
-			  margin="normal"
-			  {...field}
-			/>
-		  )}
-		/>
+		
 	  </>
 	);
   };
